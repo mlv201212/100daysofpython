@@ -68,7 +68,7 @@ else:
 door = input("Which door will you go through? 1 2 or 3\n")
 
 if door == "1":
-  input("The door was unlocked and you escaped the house!")
+  print("The door was unlocked and you escaped the house!")
   quit("You Lived and escaped!!!!!")
 elif door == "2":
   print("The door was locked and as you tried to open it you woke up the killer. You are dead now.")
